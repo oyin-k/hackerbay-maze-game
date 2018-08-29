@@ -19,3 +19,7 @@
   content: '';
   display: table;
 }
+
+.player, .food {
+  height: 25px;
+}
