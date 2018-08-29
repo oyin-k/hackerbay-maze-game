@@ -11,7 +11,6 @@ let columns = [];
 let customBoard = [];
 let playerPosition;
 let foodPosition = [];
-let move;
 let position;
 let boardWidth, boardHeight;
 
@@ -36,8 +35,6 @@ function Box({id}) {
 }
 
 class GameBoard extends Component {
-
-  // state = {}
 
   createGameBoard = () => {
     inputedRows = prompt('Please enter board height', 10);
@@ -131,7 +128,7 @@ class Game extends Component {
         break
       case "down": 
         document.getElementById(`player-${playerPosition}`).style.top = +25;
-        break
+      break
     }
   }
 

@@ -23,3 +23,7 @@
 .player, .food {
   height: 25px;
 }
+
+.player-icon>img {
+  height: 40px !important;
+}
